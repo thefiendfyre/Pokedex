@@ -101,68 +101,18 @@ namespace PokeDex.Model
         /// <summary>
         ///     Initializes a new instance of the <see cref="Pokemon" /> class.
         /// </summary>
-        /// <param name="name">The name.</param>
-        /// <param name="classification">The classification.</param>
-        /// <param name="pokedexNumber">The pokedex number.</param>
-        public Pokemon(string name, string classification, int pokedexNumber)
+        /// <param name="pokemonBuilder">The pokemon builder.</param>
+        public Pokemon(PokemonBuilder pokemonBuilder)
         {
-            this.Name = name;
-            this.Classification = classification;
-            this.PokedexNumber = pokedexNumber;
-        }
-
-        /// <summary>
-        ///     Sets the height.
-        /// </summary>
-        /// <param name="height">The height.</param>
-        public void SetHeight(double height)
-        {
-            this.Height = height;
-        }
-
-        /// <summary>
-        ///     Sets the weight.
-        /// </summary>
-        /// <param name="weight">The weight.</param>
-        public void SetWeight(double weight)
-        {
-            this.Weight = weight;
-        }
-
-        /// <summary>
-        ///     Sets the attack moves.
-        /// </summary>
-        /// <param name="attackMoves">The attack moves.</param>
-        public void SetAttackMoves(List<AttackMove> attackMoves)
-        {
-            this.AttackMoves = attackMoves;
-        }
-
-        /// <summary>
-        ///     Sets the types.
-        /// </summary>
-        /// <param name="types">The types.</param>
-        public void SetTypes(List<ElementType> types)
-        {
-            this.Types = types;
-        }
-
-        /// <summary>
-        ///     Sets the abilities.
-        /// </summary>
-        /// <param name="abilities">The abilities.</param>
-        public void SetAbilities(List<Ability> abilities)
-        {
-            this.Abilities = abilities;
-        }
-
-        /// <summary>
-        ///     Sets the stats.
-        /// </summary>
-        /// <param name="stats">The stats.</param>
-        public void SetStats(List<Stat> stats)
-        {
-            this.Stats = stats;
+            this.Name = pokemonBuilder.Name;
+            this.Classification = pokemonBuilder.Classification;
+            this.PokedexNumber = pokemonBuilder.PokedexNumber;
+            this.Height = pokemonBuilder.Height;
+            this.Weight = pokemonBuilder.Weight;
+            this.Types = pokemonBuilder.Types;
+            this.Abilities = pokemonBuilder.Abilities;
+            this.AttackMoves = pokemonBuilder.AttackMoves;
+            this.Stats = pokemonBuilder.Stats;
         }
 
         #endregion

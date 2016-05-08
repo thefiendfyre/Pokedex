@@ -71,16 +71,17 @@
 
         #endregion
 
+        #region Constructors
+
         /// <summary>
-        /// Prevents a default instance of the <see cref="AttackMove"/> class from being created.
+        ///     Prevents a default instance of the <see cref="AttackMove" /> class from being created.
         /// </summary>
-        AttackMove()
+        private AttackMove()
         {
-            
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="AttackMove"/> class.
+        ///     Initializes a new instance of the <see cref="AttackMove" /> class.
         /// </summary>
         /// <param name="levelLearned">The level learned.</param>
         /// <param name="name">The name.</param>
@@ -89,7 +90,8 @@
         /// <param name="accuracy">The accuracy.</param>
         /// <param name="powerPoints">The power points.</param>
         /// <param name="description">The description.</param>
-        public AttackMove(int levelLearned, string name, ElementType type, int power, int accuracy, int powerPoints, string description)
+        public AttackMove(int levelLearned, string name, ElementType type, int power, int accuracy, int powerPoints,
+            string description)
         {
             this.LevelLearned = levelLearned;
             this.Name = name;
@@ -99,5 +101,7 @@
             this.PowerPoints = powerPoints;
             this.Description = description;
         }
+
+        #endregion
     }
 }

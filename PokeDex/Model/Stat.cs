@@ -1,44 +1,47 @@
-﻿using System.Collections.Specialized;
-
-namespace PokeDex.Model
+﻿namespace PokeDex.Model
 {
     /// <summary>
-    /// Holds data for the Stat class.
+    ///     Holds data for the Stat class.
     /// </summary>
     /// <author>
-    /// Danl Doremus
+    ///     Danl Doremus
     /// </author>
     /// <version>
-    /// Summer 2016
+    ///     Summer 2016
     /// </version>
     internal class Stat
     {
+        #region Properties
+
         /// <summary>
-        /// Gets the name.
+        ///     Gets the name.
         /// </summary>
         /// <value>
-        /// The name.
+        ///     The name.
         /// </value>
         public string Name { get; private set; }
 
         /// <summary>
-        /// Gets the attribute.
+        ///     Gets the attribute.
         /// </summary>
         /// <value>
-        /// The attribute.
+        ///     The attribute.
         /// </value>
         public int Attribute { get; private set; }
 
+        #endregion
+
+        #region Constructors
+
         /// <summary>
-        /// Prevents a default instance of the <see cref="Stat"/> class from being created.
+        ///     Prevents a default instance of the <see cref="Stat" /> class from being created.
         /// </summary>
-        Stat()
+        private Stat()
         {
-            
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Stat"/> class.
+        ///     Initializes a new instance of the <see cref="Stat" /> class.
         /// </summary>
         /// <param name="name">The name.</param>
         /// <param name="attribute">The attribute.</param>
@@ -47,5 +50,7 @@ namespace PokeDex.Model
             this.Name = name;
             this.Attribute = attribute;
         }
+
+        #endregion
     }
 }

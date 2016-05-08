@@ -31,16 +31,17 @@
 
         #endregion
 
+        #region Constructors
+
         /// <summary>
-        /// Prevents a default instance of the <see cref="Ability"/> class from being created.
+        ///     Prevents a default instance of the <see cref="Ability" /> class from being created.
         /// </summary>
-        Ability()
+        private Ability()
         {
-            
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Ability"/> class.
+        ///     Initializes a new instance of the <see cref="Ability" /> class.
         /// </summary>
         /// <param name="name">The name.</param>
         /// <param name="description">The description.</param>
@@ -49,5 +50,7 @@
             this.Name = name;
             this.Description = description;
         }
+
+        #endregion
     }
 }
