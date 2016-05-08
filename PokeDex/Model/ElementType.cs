@@ -1,86 +1,103 @@
 ﻿namespace PokeDex.Model
 {
     /// <summary>
-    /// Holds data for the Types enum class.
+    ///     Holds data for the Types enum class.
     /// </summary>
     /// <version>
-    /// Summer 2016
+    ///     Summer 2016
     /// </version>
     /// <author>
-    /// Danl Doremus
+    ///     Danl Doremus
     /// </author>
     internal enum ElementType
     {
         /// <summary>
-        /// The insect type
+        ///     The insect type
         /// </summary>
         Bug,
+
         /// <summary>
-        /// The dark type
+        ///     The dark type
         /// </summary>
         Dark,
+
         /// <summary>
-        /// The dragon type
+        ///     The dragon type
         /// </summary>
         Dragon,
+
         /// <summary>
-        /// The electric type
+        ///     The electric type
         /// </summary>
         Electric,
+
         /// <summary>
-        /// The fairy type
+        ///     The fairy type
         /// </summary>
         Fairy,
+
         /// <summary>
-        /// The fight type
+        ///     The fight type
         /// </summary>
         Fight,
+
         /// <summary>
-        /// The fire type
+        ///     The fire type
         /// </summary>
         Fire,
+
         /// <summary>
-        /// The flying type
+        ///     The flying type
         /// </summary>
         Flying,
+
         /// <summary>
-        /// The ghost type
+        ///     The ghost type
         /// </summary>
         Ghost,
+
         /// <summary>
-        /// The grass type
+        ///     The grass type
         /// </summary>
         Grass,
+
         /// <summary>
-        /// The ground type
+        ///     The ground type
         /// </summary>
         Ground,
+
         /// <summary>
-        /// The ice type
+        ///     The ice type
         /// </summary>
         Ice,
+
         /// <summary>
-        /// The normal type
+        ///     The normal type
         /// </summary>
         Normal,
+
         /// <summary>
-        /// The poison type
+        ///     The poison type
         /// </summary>
         Poison,
+
         /// <summary>
-        /// The psychic type
+        ///     The psychic type
         /// </summary>
         Psychic,
+
         /// <summary>
-        /// The rock type
+        ///     The rock type
         /// </summary>
         Rock,
+
         /// <summary>
-        /// The steel type
+        ///     The steel type
         /// </summary>
         Steel,
+
         /// <summary>
-        /// The water type
+        ///     The water type
         /// </summary>
         Water
     }
