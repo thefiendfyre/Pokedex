@@ -9,7 +9,7 @@
     /// <author>
     /// Danl Doremus
     /// </author>
-    internal enum Types
+    internal enum ElementType
     {
         /// <summary>
         /// The insect type

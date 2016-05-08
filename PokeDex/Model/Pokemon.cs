@@ -61,7 +61,7 @@ namespace PokeDex.Model
         /// <value>
         /// The type.
         /// </value>
-        public Types Type { get; set; }
+        public List<ElementType> Types { get; set; }
 
         /// <summary>
         /// Gets or sets the attack moves.

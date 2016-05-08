@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="Model\Ability.cs" />
     <Compile Include="Model\AttackMove.cs" />
-    <Compile Include="Model\Types.cs" />
+    <Compile Include="Model\ElementType.cs" />
     <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -33,7 +33,7 @@ namespace PokeDex.Model
         /// <value>
         /// The type.
         /// </value>
-        public Types Type { get; set; }
+        public ElementType Type { get; set; }
 
         /// <summary>
         /// How powerful this AttackMove is.
