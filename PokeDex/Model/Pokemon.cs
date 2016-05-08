@@ -1,4 +1,4 @@
-﻿namespace PokeDex
+﻿namespace PokeDex.Model
 {
     /// <summary>
     /// Holds data for the Pokemon class.
