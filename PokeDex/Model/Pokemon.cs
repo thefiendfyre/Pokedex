@@ -16,6 +16,22 @@ namespace PokeDex.Model
         #region Properties
 
         /// <summary>
+        /// Gets or sets the name.
+        /// </summary>
+        /// <value>
+        /// The name.
+        /// </value>
+        public string Name { get; set; }
+
+        /// <summary>
+        /// Gets or sets the classification.
+        /// </summary>
+        /// <value>
+        /// The classification.
+        /// </value>
+        public string Classification { get; set; }
+
+        /// <summary>
         /// Gets or sets the height.
         /// </summary>
         /// <value>
@@ -54,6 +70,14 @@ namespace PokeDex.Model
         /// The attack moves.
         /// </value>
         public List<AttackMove> AttackMoves { get; set; }
+
+        /// <summary>
+        /// Gets or sets the abilities.
+        /// </summary>
+        /// <value>
+        /// The abilities.
+        /// </value>
+        public List<Ability> Abilities { get; set; }
 
         #endregion
     }

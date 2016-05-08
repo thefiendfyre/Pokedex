@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Ability.cs" />
     <Compile Include="Model\AttackMove.cs" />
     <Compile Include="Model\Types.cs" />
     <Compile Include="View\Form1.cs">
