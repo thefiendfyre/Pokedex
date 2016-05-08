@@ -1,4 +1,6 @@
-﻿namespace PokeDex.Model
+﻿using System.Collections.Generic;
+
+namespace PokeDex.Model
 {
     /// <summary>
     /// Holds data for the Pokemon class.
@@ -35,9 +37,23 @@
         /// <value>
         /// The pokedex number.
         /// </value>
-        public int PokedexNumber { get; set; }  
+        public int PokedexNumber { get; set; }
 
-        
+        /// <summary>
+        /// Gets or sets the type.
+        /// </summary>
+        /// <value>
+        /// The type.
+        /// </value>
+        public Types Type { get; set; }
+
+        /// <summary>
+        /// Gets or sets the attack moves.
+        /// </summary>
+        /// <value>
+        /// The attack moves.
+        /// </value>
+        public List<AttackMove> AttackMoves { get; set; }
 
         #endregion
     }
