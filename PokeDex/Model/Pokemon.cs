@@ -79,6 +79,14 @@ namespace PokeDex.Model
         /// </value>
         public List<Ability> Abilities { get; private set; }
 
+        /// <summary>
+        /// Gets the stats.
+        /// </summary>
+        /// <value>
+        /// The stats.
+        /// </value>
+        public List<Stat> Stats { get; private set; }
+
         #endregion
 
         /// <summary>
@@ -90,23 +98,25 @@ namespace PokeDex.Model
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Pokemon"/> class.
+        /// Initializes a new instance of the <see cref="Pokemon" /> class.
         /// </summary>
         /// <param name="name">The name.</param>
         /// <param name="classification">The classification.</param>
         /// <param name="height">The height.</param>
         /// <param name="weight">The weight.</param>
         /// <param name="pokedexNumber">The pokedex number.</param>
+        /// <param name="stats">The stats.</param>
         /// <param name="types">The types.</param>
         /// <param name="attackMoves">The attack moves.</param>
         /// <param name="abilities">The abilities.</param>
-        public Pokemon(string name, string classification, double height, double weight, int pokedexNumber, List<ElementType> types, List<AttackMove> attackMoves, List<Ability> abilities)
+        public Pokemon(string name, string classification, double height, double weight, int pokedexNumber, List<Stat> stats, List<ElementType> types, List<AttackMove> attackMoves, List<Ability> abilities)
         {
             this.Name = name;
             this.Classification = classification;
             this.Height = height;
             this.Weight = weight;
             this.PokedexNumber = pokedexNumber;
+            this.Stats = stats;
             this.Types = types;
             this.AttackMoves = attackMoves;
             this.Abilities = abilities;

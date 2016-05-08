@@ -48,6 +48,7 @@
     <Compile Include="Model\AttackMove.cs" />
     <Compile Include="Model\ElementType.cs" />
     <Compile Include="Model\Pokedex.cs" />
+    <Compile Include="Model\Stat.cs" />
     <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
