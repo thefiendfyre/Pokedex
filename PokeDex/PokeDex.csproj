@@ -50,11 +50,11 @@
     <Compile Include="Model\Pokedex.cs" />
     <Compile Include="Model\PokemonBuilder.cs" />
     <Compile Include="Model\Stat.cs" />
-    <Compile Include="View\Form1.cs">
+    <Compile Include="View\PokedexForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="View\PokedexForm.Designer.cs">
+      <DependentUpon>PokedexForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Pokemon.cs" />
     <Compile Include="Program.cs" />
@@ -68,6 +68,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\PokedexForm.resx">
+      <DependentUpon>PokedexForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,6 +83,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Pokemon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

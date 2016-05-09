@@ -2,11 +2,11 @@
 
 namespace PokeDex
 {
-    public partial class Form1 : Form
+    public partial class PokedexForm : Form
     {
         #region Constructors
 
-        public Form1()
+        public PokedexForm()
         {
             this.InitializeComponent();
         }
